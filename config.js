@@ -7,7 +7,7 @@ function convertToBool(text, fault = "true") {
 }
 module.exports = {
   SESSION_ID: process.env.SESSION_ID || "PUT YOUR SESSION ID HERE",
-  OWNER_NUM: process.env.OWNER_NUM || "9476xxxxxx",
+  OWNER_NUM: process.env.OWNER_NUM || "94789086040",
   PREFIX: process.env.PREFIX || ".",
   ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/VYHLZ8Cv/my-data.jpg",
   ALIVE_MSG: process.env.ALIVE_MSG || "Hello , I am alive now!!\n\n> NETHMINA OFC WA-BOT",
