@@ -218,7 +218,7 @@ let madeMenu = `
 ╘✦•·········•••••••••············•✦
 `;
 await robin.sendPresenceUpdate('recording', from);
-    await robin.sendMessage(from, { audio: { url: "https://s19.aconvert.com/convert/p3r68-cdx67/flc6w-qz8h5.mp3" }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
+    await robin.sendMessage(from, { audio: { url: "https://github.com/Official-Nethmina/NETHMINA-OFC-WABOT/raw/refs/heads/main/data/alive&menu/list.m4a" }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
       await robin.sendMessage(
         from,
         {
