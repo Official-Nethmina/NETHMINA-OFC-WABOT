@@ -8,7 +8,7 @@ cmd({
   on: "body"
 },    
 async (robin, mek, m, { from, body, isOwner }) => {
-    const filePath = path.join(__dirname, '..data/alldata/autovoice.json');
+    const filePath = path.join(__dirname, '../alldata/autovoice.json');
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     for (const text in data) {
         if (body.toLowerCase() === text.toLowerCase()) {
@@ -27,7 +27,7 @@ cmd({
   on: "body"
 },    
 async (robin, mek, m, { from, body, isOwner }) => {
-    const filePath = path.join(__dirname, '..data/alldata/autosticker.json');
+    const filePath = path.join(__dirname, '../alldata/autosticker.json');
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     for (const text in data) {
         if (body.toLowerCase() === text.toLowerCase()) {
@@ -55,7 +55,7 @@ cmd({
   on: "body"
 },    
 async (robin, mek, m, { from, body, isOwner }) => {
-    const filePath = path.join(__dirname, '..data/alldata/autoreply.json');
+    const filePath = path.join(__dirname, '../alldata/autoreply.json');
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     for (const text in data) {
         if (body.toLowerCase() === text.toLowerCase()) {
